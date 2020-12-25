@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: hidden;
+} 
+
+body {
+    background: linear-gradient(180deg, rgba(255, 255, 235, 0.9), rgb(255, 235, 180, 0.9));
+    height: 100vh;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+}
+
+h1 {
+    color: rgba(250, 175, 30, 0.9);
+    text-shadow: 1.5px 1.5px rgba(60, 60, 0, 0.8);
+    font-family: cursive;
+    font-size: 3vh;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 1vh 0 1vh 0;
+}
+
+img {
+    width: 50vh;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+#data {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 60%;
+    margin: 1vh 0 1vh 0;
+}
+
+#a {
+    color: red;
+}
+
+#b {
+    color: blue;
+}
+
+#c {
+    color: green;
+}
+
+#data h5 {
+    font-family: cursive;
+    color: rgba(250, 175, 30, 0.9);
+    text-shadow: 0.5px 0.5px rgba(60, 60, 0, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: cursive;
+    color: rgb(30, 30, 255);
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+h6 {
+    font-family: cursive;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.5vh;
+    font-weight: 300;
+    margin-bottom: 1vh;
+}
+
+.row_coefficients {
+    display: flex;
+}
+
+#value_a, #value_b, #value_c {
+    height: 3vh;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+
+#value_a {
+    color: red;
+    border: 2px solid red;
+}
+
+#value_b {
+    color: blue;
+    border: 2px solid blue;
+}
+
+#value_c {
+    color: green; 
+    border: 2px solid green;
+}
+
+.butResult {
+    background-color:  rgba(250, 175, 30, 0.4);
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    font-size: 1.5vh;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 1vh 0 2vh 0;
+}
+
+.butResult:hover {
+    background-color: rgba(255, 255, 0, 0.7);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.butResult:active {
+    background-color: rgba(250, 175, 30, 0.4);
+    color: rgb(0, 0, 0);
+}
+
+.row_result h4 {
+    font-family: cursive;
+    color: rgb(30, 30, 255);
+    font-size: 2vh;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.style_mes {
+    font-family: sans-serif;
+    color: rgb(200, 0, 0);
+    font-size: 1.8vh;
+    font-weight: 600;
+}
+
+.style_asw {
+    font-family: cursive;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.footer h5 {
+    color:rgb(30, 30, 255);
+    font-family: cursive;
+    font-style: italic;
+    font-size: 2vh;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.footer h5 a {
+    color:rgb(30, 30, 255);
+}
+
+.footer h5 a:hover {
+    color:rgba(0, 0, 0, 1);
+    text-shadow: 0 0 5px rgba(255, 0, 0, 1);
+    text-decoration: none;
+}

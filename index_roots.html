@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корни и дискриминант</title>
+    <meta name="author" content="Polozov_Evgeny">
+    <meta name="keywords" content="корни, дискриминант, функции, уравнения, математика">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style_roots.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="script_roots.js" async></script>
+</head>
+
+<body>
+    <section class="header">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Нахождение дискриминанта и корней<br> функции для уравнений вида: ax<sup>2</sup>+bx+c=0</h1>
+                    <img src="img/roots.jpg" alt="roots">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container text-center">
+            <div class="row_data">
+                <div class="col-lg-12">
+                    <div id="data">                    
+                        <h5>Квадратичная функция имеет вид: <span id="a">a</span>x<sup>2</sup>+<span id="b">b</span>x+<span id="c">c</span>=0</h5>
+                        <h5>Формула дискриминанта: D=<span id="b">b</span><sup>2</sup>-4<span id="a">a</span><span id="c">c</span></h5>
+                    </div>
+                    <h2>Ввод исходных данных (коэффициентов):</h2>
+                    <h6>Пример: для уравнения "2x<sup>2</sup>-6x+10=0" коэффициенты равны: a=2, b=-6, c=10</h6>
+                </div>
+            </div>
+            <div class="row_coefficients">
+                <div class="col-lg-4 valueABC">
+                    <input id="value_a" type="text" class="form-control" placeholder="Введите значание коэффициента 'a'">
+                    <div id="messageA" class="style_mes"></div>
+                </div>
+                <div class="col-lg-4 valueABC">
+                    <input id="value_b" type="text" class="form-control" placeholder="Введите значание коэффициента 'b'">
+                    <div id="messageB" class="style_mes"></div>
+                    <button class="btn btn-info butResult" id="butEstimat">Выполнить расчет</button>
+                </div>
+                <div class="col-lg-4 valueABC">
+                    <input id="value_c" type="text" class="form-control" placeholder="Введите значание коэффициента 'c'">
+                    <div id="messageC" class="style_mes"></div>
+                </div>
+            </div>
+            <div class="row_result">
+                <div class="col-lg-12">
+                    <h4>Дискриминант:</h4>
+                    <div id="discrimin" class="style_asw"></div>
+                    <h4>Корни уравнения:</h4>
+                    <div id="resultX" class="style_asw"></div>
+                    <h4>Описание результата:</h4>
+                    <div id="answer" class="style_asw"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <button class="btn btn-info butResult" id="butRecalc">Повторить расчет</button>
+                    <h5>2020© "Лёгкие расчеты" / <a href="https://github.com/Polozov-Evgeny" target="_blank">Evgeny Polozov</a></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
